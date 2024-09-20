@@ -1,0 +1,272 @@
+{
+  "data": {
+    "m_def": "nomad_plugin_sintering.schema_packages.sintering.Sintering",
+    "name": "data sintering",
+    "datetime": "2024-09-20T15:21:53.453123+00:00",
+    "data_file": "data_sintering.csv",
+    "steps": [
+      {
+        "name": "heating",
+        "duration": 1800.0,
+        "initial_temperature": 25.0,
+        "final_temperature": 300.0
+      },
+      {
+        "name": "hold",
+        "duration": 3600.0,
+        "initial_temperature": 300.0,
+        "final_temperature": 300.0
+      },
+      {
+        "name": "cooling",
+        "duration": 1800.0,
+        "initial_temperature": 300.0,
+        "final_temperature": 25.0
+      }
+    ]
+  },
+  "workflow2": {
+    "name": "data sintering"
+  },
+  "metadata": {
+    "entry_name": "data_sintering.archive.yaml",
+    "entry_type": "Sintering",
+    "mainfile": "/home/palevasseur/nomad_plugin_sintering/tests/data/data_sintering.archive.yaml",
+    "text_search_contents": [
+      "cooling",
+      "hold",
+      "data_sintering.csv",
+      "heating",
+      "data sintering"
+    ],
+    "n_quantities": 31,
+    "quantities": [
+      "",
+      "data",
+      "data.data_file",
+      "data.datetime",
+      "data.name",
+      "data.steps",
+      "data.steps.duration",
+      "data.steps.final_temperature",
+      "data.steps.initial_temperature",
+      "data.steps.name",
+      "metadata",
+      "metadata.entry_name",
+      "metadata.entry_type",
+      "metadata.mainfile",
+      "metadata.quantities",
+      "metadata.section_defs",
+      "metadata.section_defs.definition_id",
+      "metadata.section_defs.definition_qualified_name",
+      "metadata.section_defs.used_directly",
+      "metadata.sections",
+      "results",
+      "results.eln",
+      "results.eln.methods",
+      "results.eln.names",
+      "results.eln.sections",
+      "results.properties",
+      "workflow2",
+      "workflow2.name"
+    ],
+    "sections": [
+      "nomad.datamodel.datamodel.EntryArchive",
+      "nomad.datamodel.datamodel.EntryMetadata",
+      "nomad.datamodel.metainfo.workflow.Workflow",
+      "nomad.datamodel.results.ELN",
+      "nomad.datamodel.results.Properties",
+      "nomad.datamodel.results.Results",
+      "nomad_plugin_sintering.schema_packages.sintering.Sintering",
+      "nomad_plugin_sintering.schema_packages.sintering.TemperatureRamp"
+    ],
+    "section_defs": [
+      {
+        "definition_qualified_name": "nomad.datamodel.data.ArchiveSection",
+        "definition_id": "7047cbff9980abff17cce4b1b6b0d1c783505b7f",
+        "used_directly": true
+      },
+      {
+        "definition_qualified_name": "nomad.datamodel.data.EntryData",
+        "definition_id": "538f52fd8d52b29372066f878319c6aeb03b74d2",
+        "used_directly": true
+      },
+      {
+        "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchive",
+        "definition_id": "f1714301c7ba757a6f15734660ff1bc2393660c4",
+        "used_directly": true
+      },
+      {
+        "definition_qualified_name": "nomad.datamodel.datamodel.EntryMetadata",
+        "definition_id": "6edfa503af63b84d6a6021c227d00137b4c1cc9c",
+        "used_directly": true
+      },
+      {
+        "definition_qualified_name": "nomad.datamodel.metainfo.basesections.Activity",
+        "definition_id": "bd0abbd05794fb9a22acf98127f53b6c621a2649",
+        "used_directly": false
+      },
+      {
+        "definition_qualified_name": "nomad.datamodel.metainfo.basesections.ActivityStep",
+        "definition_id": "a99fab14031097eb4b33562274029bd735d753fa",
+        "used_directly": false
+      },
+      {
+        "definition_qualified_name": "nomad.datamodel.metainfo.basesections.BaseSection",
+        "definition_id": "106bafb5140238b4afe8128b8c341b5b3e927838",
+        "used_directly": false
+      },
+      {
+        "definition_qualified_name": "nomad.datamodel.metainfo.basesections.Process",
+        "definition_id": "937d37a2a0a3bdd1ee31d1e4c919497c018dfb44",
+        "used_directly": true
+      },
+      {
+        "definition_qualified_name": "nomad.datamodel.metainfo.basesections.ProcessStep",
+        "definition_id": "c1ab49b91cd0a92bd199740e3a6a2184a8e1498e",
+        "used_directly": true
+      },
+      {
+        "definition_qualified_name": "nomad.datamodel.metainfo.workflow.Task",
+        "definition_id": "ac62fdff74f54fd477531446ca111c0dd9df6ba2",
+        "used_directly": true
+      },
+      {
+        "definition_qualified_name": "nomad.datamodel.metainfo.workflow.Workflow",
+        "definition_id": "fc65ae24157492e422afe61173a71403fc5e1fd7",
+        "used_directly": true
+      },
+      {
+        "definition_qualified_name": "nomad.datamodel.results.ELN",
+        "definition_id": "eeed330bd18d40f3a2a00cc35ba6f58808d0c543",
+        "used_directly": true
+      },
+      {
+        "definition_qualified_name": "nomad.datamodel.results.Properties",
+        "definition_id": "6fb112524bb10f9ac23e8d162e4d7ad2e5862be3",
+        "used_directly": true
+      },
+      {
+        "definition_qualified_name": "nomad.datamodel.results.Results",
+        "definition_id": "72fc7fdff28b055cec563fb9df2cadc21b225fc0",
+        "used_directly": true
+      },
+      {
+        "definition_qualified_name": "nomad_plugin_sintering.schema_packages.sintering.Sintering",
+        "definition_id": "9f71f29278c87f0f992a420ee0543325919275bc",
+        "used_directly": true
+      },
+      {
+        "definition_qualified_name": "nomad_plugin_sintering.schema_packages.sintering.TemperatureRamp",
+        "definition_id": "71c5a34f55720dd913e84d8ea24e27300c272186",
+        "used_directly": true
+      }
+    ],
+    "search_quantities": [
+      {
+        "id": "data.data_file#nomad_plugin_sintering.schema_packages.sintering.Sintering",
+        "definition": "nomad_plugin_sintering.schema_packages.sintering.Sintering.data_file",
+        "path_archive": "data.data_file",
+        "str_value": "data_sintering.csv"
+      },
+      {
+        "id": "data.steps.name#nomad_plugin_sintering.schema_packages.sintering.Sintering",
+        "definition": "nomad.datamodel.metainfo.basesections.ActivityStep.name",
+        "path_archive": "data.steps.0.name",
+        "str_value": "heating"
+      },
+      {
+        "id": "data.steps.duration#nomad_plugin_sintering.schema_packages.sintering.Sintering",
+        "definition": "nomad.datamodel.metainfo.basesections.ProcessStep.duration",
+        "path_archive": "data.steps.0.duration",
+        "float_value": 1800.0
+      },
+      {
+        "id": "data.steps.initial_temperature#nomad_plugin_sintering.schema_packages.sintering.Sintering",
+        "definition": "nomad_plugin_sintering.schema_packages.sintering.TemperatureRamp.initial_temperature",
+        "path_archive": "data.steps.0.initial_temperature",
+        "float_value": 25.0
+      },
+      {
+        "id": "data.steps.final_temperature#nomad_plugin_sintering.schema_packages.sintering.Sintering",
+        "definition": "nomad_plugin_sintering.schema_packages.sintering.TemperatureRamp.final_temperature",
+        "path_archive": "data.steps.0.final_temperature",
+        "float_value": 300.0
+      },
+      {
+        "id": "data.steps.name#nomad_plugin_sintering.schema_packages.sintering.Sintering",
+        "definition": "nomad.datamodel.metainfo.basesections.ActivityStep.name",
+        "path_archive": "data.steps.1.name",
+        "str_value": "hold"
+      },
+      {
+        "id": "data.steps.duration#nomad_plugin_sintering.schema_packages.sintering.Sintering",
+        "definition": "nomad.datamodel.metainfo.basesections.ProcessStep.duration",
+        "path_archive": "data.steps.1.duration",
+        "float_value": 3600.0
+      },
+      {
+        "id": "data.steps.initial_temperature#nomad_plugin_sintering.schema_packages.sintering.Sintering",
+        "definition": "nomad_plugin_sintering.schema_packages.sintering.TemperatureRamp.initial_temperature",
+        "path_archive": "data.steps.1.initial_temperature",
+        "float_value": 300.0
+      },
+      {
+        "id": "data.steps.final_temperature#nomad_plugin_sintering.schema_packages.sintering.Sintering",
+        "definition": "nomad_plugin_sintering.schema_packages.sintering.TemperatureRamp.final_temperature",
+        "path_archive": "data.steps.1.final_temperature",
+        "float_value": 300.0
+      },
+      {
+        "id": "data.steps.name#nomad_plugin_sintering.schema_packages.sintering.Sintering",
+        "definition": "nomad.datamodel.metainfo.basesections.ActivityStep.name",
+        "path_archive": "data.steps.2.name",
+        "str_value": "cooling"
+      },
+      {
+        "id": "data.steps.duration#nomad_plugin_sintering.schema_packages.sintering.Sintering",
+        "definition": "nomad.datamodel.metainfo.basesections.ProcessStep.duration",
+        "path_archive": "data.steps.2.duration",
+        "float_value": 1800.0
+      },
+      {
+        "id": "data.steps.initial_temperature#nomad_plugin_sintering.schema_packages.sintering.Sintering",
+        "definition": "nomad_plugin_sintering.schema_packages.sintering.TemperatureRamp.initial_temperature",
+        "path_archive": "data.steps.2.initial_temperature",
+        "float_value": 300.0
+      },
+      {
+        "id": "data.steps.final_temperature#nomad_plugin_sintering.schema_packages.sintering.Sintering",
+        "definition": "nomad_plugin_sintering.schema_packages.sintering.TemperatureRamp.final_temperature",
+        "path_archive": "data.steps.2.final_temperature",
+        "float_value": 25.0
+      },
+      {
+        "id": "data.name#nomad_plugin_sintering.schema_packages.sintering.Sintering",
+        "definition": "nomad.datamodel.metainfo.basesections.BaseSection.name",
+        "path_archive": "data.name",
+        "str_value": "data sintering"
+      },
+      {
+        "id": "data.datetime#nomad_plugin_sintering.schema_packages.sintering.Sintering",
+        "definition": "nomad.datamodel.metainfo.basesections.Activity.datetime",
+        "path_archive": "data.datetime",
+        "datetime_value": "2024-09-20T15:21:53.453123+00:00"
+      }
+    ]
+  },
+  "results": {
+    "properties": {},
+    "eln": {
+      "sections": [
+        "Sintering"
+      ],
+      "names": [
+        "data sintering"
+      ],
+      "methods": [
+        "Sintering"
+      ]
+    }
+  }
+}

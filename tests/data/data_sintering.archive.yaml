@@ -1,0 +1,3 @@
+data:
+  m_def: nomad_plugin_sintering.schema_packages.sintering.Sintering
+  data_file: data_sintering.csv

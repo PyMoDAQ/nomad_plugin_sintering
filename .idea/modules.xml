@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../nomad-oasis/.idea/nomad-oasis.iml" filepath="$PROJECT_DIR$/../nomad-oasis/.idea/nomad-oasis.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/nomad_plugin_sintering.iml" filepath="$PROJECT_DIR$/.idea/nomad_plugin_sintering.iml" />
     </modules>
   </component>

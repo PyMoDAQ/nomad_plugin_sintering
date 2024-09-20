@@ -113,7 +113,7 @@ class Sintering(Process, EntryData, ArchiveSection):
         },
     )
 
-    def normalize(self, archive, logger: BoundLogger) -> None:
+    def normalize(self, archive, logger: 'BoundLogger') -> None:
         '''
         The normalizer for the `Sintering` class.
 
@@ -135,7 +135,7 @@ class Sintering(Process, EntryData, ArchiveSection):
                 step.initial_temperature = ureg.Quantity(row['initial temperature [C]'], 'celsius')
                 step.final_temperature = ureg.Quantity(row['final temperature [C]'], 'celsius')
                 steps.append(step)
-        self.steps = steps
+            self.steps = steps
 
 
 m_package.__init_metainfo__()
