@@ -112,7 +112,7 @@ where = ["src"]
 
 [project.entry-points.'nomad.plugin']
 parser_entry_point = "nomad_plugin_sintering.parsers:parser_entry_point"
-schema_package_entry_point = "nomad_plugin_sintering.schema_packages:schema_package_entry_point"
+sintering_entry_point = "nomad_plugin_sintering.schema_packages:sintering_entry_point"
 normalizer_entry_point = "nomad_plugin_sintering.normalizers:normalizer_entry_point"
 app_entry_point = "nomad_plugin_sintering.apps:app_entry_point"
 example_upload_entry_point = "nomad_plugin_sintering.example_uploads:example_upload_entry_point"
